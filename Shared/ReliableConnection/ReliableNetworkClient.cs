@@ -1,5 +1,5 @@
-﻿using Assets.Shared.Networking.Datagrams;
-using Assets.Shared.Networking.Serializers;
+﻿using UnityMultiplayer.Shared.Networking.Datagrams;
+using UnityMultiplayer.Shared.Networking.Serializers;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;

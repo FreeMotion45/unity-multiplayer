@@ -5,11 +5,9 @@ using System.Net.Sockets;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Assets.Shared.Commands;
 using UnityEngine;
-using Assets.Shared.Networking.Serializers;
-using Assets.Shared.Player;
-using Assets.Shared.Networking.Datagrams;
+using UnityMultiplayer.Shared.Networking.Serializers;
+using UnityMultiplayer.Shared.Networking.Datagrams;
 
 namespace UnityMultiplayer.Shared.Networking
 {

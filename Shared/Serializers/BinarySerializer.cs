@@ -1,13 +1,11 @@
-﻿using Assets.Shared.Commands;
-using Assets.Shared.Networking.Datagrams;
-using Assets.Shared.Player;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using UnityMultiplayer.Shared.Networking.Datagrams;
 
 namespace UnityMultiplayer.Shared.Networking.Serializers
 {

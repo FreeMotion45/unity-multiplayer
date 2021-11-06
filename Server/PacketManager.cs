@@ -1,11 +1,9 @@
-﻿using Assets.Shared.Commands;
-using Assets.Shared.Networking;
-using Assets.Shared.Networking.CommandHandling;
-using Assets.Shared.Networking.Datagrams;
-using Assets.Shared.Networking.SecureConnection;
-using Assets.Shared.Networking.Serializers;
-using Assets.Shared.Networking.UnreliableConnection;
-using Assets.Shared.Player;
+﻿using UnityMultiplayer.Shared;
+using UnityMultiplayer.Shared.Networking;
+using UnityMultiplayer.Shared.Networking.Datagrams;
+using UnityMultiplayer.Shared.Networking.SecureConnection;
+using UnityMultiplayer.Shared.Networking.Serializers;
+using UnityMultiplayer.Shared.Networking.UnreliableConnection;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -15,8 +13,9 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityMultiplayer.Shared.Networking.Datagrams.Handling;
 
-namespace UnityMultiplayer.Shared.Networking
+namespace UnityMultiplayer.Server
 {
     class PacketManager : MonoBehaviour
     {

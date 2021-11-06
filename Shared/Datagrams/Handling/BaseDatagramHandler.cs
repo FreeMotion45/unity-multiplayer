@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.Shared.Networking.Datagrams.Handling
+namespace UnityMultiplayer.Shared.Networking.Datagrams.Handling
 {
     public abstract class BaseDatagramHandler : MonoBehaviour
     {

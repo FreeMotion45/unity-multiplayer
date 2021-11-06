@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 using UnityEngine;
 
-namespace Assets.Shared.Networking.SecureConnection
+namespace UnityMultiplayer.Shared.Networking.SecureConnection
 {
     public class ReliableNetworkClient
     {

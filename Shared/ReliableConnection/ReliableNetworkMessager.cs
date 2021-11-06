@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.Shared.Networking.SecureConnection
+namespace UnityMultiplayer.Shared.Networking.SecureConnection
 {
     public class ReliableNetworkMessager
     {

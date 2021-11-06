@@ -11,7 +11,7 @@ using Assets.Shared.Networking.Serializers;
 using Assets.Shared.Player;
 using Assets.Shared.Networking.Datagrams;
 
-namespace Assets.Shared.Networking
+namespace UnityMultiplayer.Shared.Networking
 {
     public class UnreliableNetworkClient
     {

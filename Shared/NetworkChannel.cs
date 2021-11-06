@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.Shared.Networking
+namespace UnityMultiplayer.Shared.Networking
 {
     public class NetworkChannel
     {

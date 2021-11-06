@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.Shared.Networking.UnreliableConnection
+namespace UnityMultiplayer.Shared.Networking.UnreliableConnection
 {
     public class UnreliableMessage
     {
